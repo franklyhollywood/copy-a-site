@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	border: solid 1px black;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	width: 80%;
+	display: grid;
+	grid-template-columns: 2fr 6fr 1.5fr;
+}
+
+.create {
+}
+
+.middle {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+}
+.community {
+	display: flex;
+	flex-direction: column;
+}
